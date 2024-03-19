@@ -1,0 +1,13 @@
+<mat-toolbar>mat-toolbar</mat-toolbar>
+<div class="contenedorgeneral">
+    <div class="imagenprincipal">
+        <img [src]="imgroute">
+    </div>
+
+    <div class="galeriaimagenes">
+        <app-imagenhijo *ngFor="let imagen of listaDeImagenes" 
+        (datosEnviados)="inputimg($event)"    
+            ></app-imagenhijo>
+    </div>    
+
+</div>

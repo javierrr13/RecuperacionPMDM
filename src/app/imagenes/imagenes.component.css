@@ -1,0 +1,13 @@
+.imagenprincipal{
+    margin: 20%;
+    height: 100px;
+    width: 100px;
+    background-image: '/src/assets/img/martillo.png';
+}
+.galeriaimagenes1{
+    display: flex;
+    flex-direction: row;
+}
+.contenedorgeneral{
+    display: flex;
+}
